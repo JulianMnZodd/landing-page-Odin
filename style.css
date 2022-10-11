@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+body{
+    background-image: url("/imgs/1275657.jpg");
+    
+}
+#main{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header-container{
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: solid 1px;
+    background-color: blueviolet;
+}
+
+.links-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-right: 20px;
+}
+.links-container a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.logo{
+    padding: 5px;
+    max-width: 70px;
+    margin-left: 30px;
+}
+
+/*------------------------------*/
+
+.container-aux{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 30px;
+    max-height: 400px;
+}
+
+.articulo{
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.articulo h1{
+    font-size: 50px;
+}
+.articulo p{
+    font-size: 15x;
+}
+.articulo button{
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    font-size: 15px;
+    color: #ffff;
+    border-radius: 10%;
+}
+
+.container-img{
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+.container-img img{
+    border: solid 1px;
+    border-radius: 10%;
+    width: 400px;
+    height: 250px;
+}
