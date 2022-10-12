@@ -19,7 +19,6 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    border: solid 1px;
     background-color: blueviolet;
 }
 
@@ -66,13 +65,14 @@ body{
 .articulo p{
     font-size: 15x;
 }
-.articulo button{
+.btn{
     width: 120px;
     height: 40px;
     background-color: blueviolet;
     font-size: 15px;
     color: #ffff;
-    border-radius: 10%;
+    border-radius: 8%;
+    border-style:ridge;
 }
 
 .container-img{
@@ -90,10 +90,6 @@ body{
 
 /*section cards*/
 
-.sec-2{
-    
-    border: solid 1px;
-}
 .cards-container{
     display: flex;
     justify-content: space-between;
@@ -135,4 +131,54 @@ body{
     font-weight: bold;
 }
 
+/*section-2*/
 
+
+.sec-3{
+    margin-top: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sec-3 p{
+    font-size: 30px;
+}
+.sec-3 b{
+    font-size: 25px
+}
+
+/*footer*/
+
+.footer{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+    background-color:rgb(8, 15, 75);
+    border-radius: 2%;
+}
+.footer-container article h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-container .btn{
+    background-color:transparent;
+    border-radius: 8%;
+    border-color:#ffff;
+    
+}
