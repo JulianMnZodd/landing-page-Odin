@@ -6,7 +6,8 @@
 }
 body{
     background-image: url("/imgs/1275657.jpg");
-    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 #main{
     width: 100%;
@@ -86,3 +87,52 @@ body{
     width: 400px;
     height: 250px;
 }
+
+/*section cards*/
+
+.sec-2{
+    
+    border: solid 1px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card-title h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+.img{
+    border: solid 1px;
+    border-radius: 20%;
+    height: 180px;
+    width: 100%;
+    background-image: url(./imgs/logo.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-height: 300px;
+    width: 200px;
+    
+}
+.card p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
